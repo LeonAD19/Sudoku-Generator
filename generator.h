@@ -1,5 +1,0 @@
-
-#ifndef SUDOKUPROJECT_GENERATOR_H
-#define SUDOKUPROJECT_GENERATOR_H
-int** generateBoard();
-#endif //SUDOKUPROJECT_GENERATOR_H
