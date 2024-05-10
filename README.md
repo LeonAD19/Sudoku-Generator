@@ -1,6 +1,6 @@
 # Sudoku-Generator
 Sudoku Random Generator
-
+ 
 I would create an empty sudoku bord all filled with 0
   0   0   0   |   0   0   0   |   0   0   0
   0   0   0   |   0   0   0   |   0   0   0 
