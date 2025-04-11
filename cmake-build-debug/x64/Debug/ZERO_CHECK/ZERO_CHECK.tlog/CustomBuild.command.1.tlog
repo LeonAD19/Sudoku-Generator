@@ -1,0 +1,10 @@
+^C:\USERS\GOOFY\ONEDRIVE\DOCUMENTS\SUDOKU-GENERATOR\CMAKE-BUILD-DEBUG\CMAKEFILES\4AB1FD2474834ADB3A76CC5EF1C36F62\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/goofy/OneDrive/Documents/Sudoku-Generator -BC:/Users/goofy/OneDrive/Documents/Sudoku-Generator/cmake-build-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/goofy/OneDrive/Documents/Sudoku-Generator/cmake-build-debug/SudokuProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\goofy\OneDrive\Documents\Sudoku-Generator\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\goofy\OneDrive\Documents\Sudoku-Generator\src\generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\goofy\OneDrive\Documents\Sudoku-Generator\src\sudoku.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\goofy\OneDrive\Documents\Sudoku-Generator\src\sudokuio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\goofy\OneDrive\Documents\Sudoku-Generator\src\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\goofy\OneDrive\Documents\Sudoku-Generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D3991B3A-6A3B-396D-9468-6933EB5E8E5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

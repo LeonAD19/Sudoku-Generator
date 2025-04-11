@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <regex>
+#include <iomanip>
 #include "../include/sudokuio.h"
 #include "../include/sudoku.h"
 

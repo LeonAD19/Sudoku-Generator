@@ -1,6 +1,7 @@
-
-#include "../include/sudoku.h"
+#include "../include/sudoku.h"   // Relative path to the header file
 #include <iostream>
+#include <string>
+#include <iomanip>
 using namespace std;
 
 void printBoard(int** BOARD, int r, int c, int k)
@@ -11,13 +12,13 @@ void printBoard(int** BOARD, int r, int c, int k)
         {
             string board_piece;
             if (BOARD[i][j] == 0) board_piece = "\x1B[93m-\x1B[0m"; // Yellow
-            else board_piece = to_string(BOARD[i][j]); // White
+            else board_piece = std::to_string(BOARD[i][j]); // White
             if ((i == r && j == c) && k != 0)
             {
                 if (isValid(BOARD, r, c, k))
-                    board_piece = "\x1B[32m" + to_string(k) + "\x1B[0m"; // Green
+                    board_piece = "\x1B[32m" + std::to_string(k) + "\x1B[0m"; // Green
                 else
-                    board_piece = "\x1B[31m" + to_string(k) + "\x1B[0m"; // Red
+                    board_piece = "\x1B[31m" + std::to_string(k) + "\x1B[0m"; // Red
             }
             cout << board_piece;
             if (j == 2 || j == 5) cout << " | ";

@@ -6,6 +6,7 @@
 #include "../include/sudokuio.h"
 #include "../include/sudoku.h"
 using namespace std;
+
 string getFileName(int index, const string &destination, const string &prefix){
     string index_str = to_string(index);
     string index_fill = string(4 - index_str.length(), '0');

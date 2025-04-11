@@ -1,4 +1,6 @@
 # Sudoku-Generator
+          Overall Objective:
+The main objective of your project is to generate Sudoku puzzles, solve them, and then either print or save the puzzles and solutions. The project uses several components to handle board generation, validation and solving, file input/output (I/O), and utility operations (such as naming files). In summary, it creates a Sudoku board (or multiple puzzles), processes them (solves or validates), and writes them to files in designated folders (and optionally prints them on the console).
 
         - I would create an empty sudoku bord all filled with 0
             <pre>
